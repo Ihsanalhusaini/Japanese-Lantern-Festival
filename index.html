@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Japan Lantern Festival</title>
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="main">
+
+<!-- HEADER -->
+
+<div id="header"></div>
+
+<!-- WELCOME MESSAGE -->
+
+<div id="welcome">
+
+Welcome to the Japan Lantern Festival! Experience the magic of thousands of glowing lanterns.
+
+</div>
+
+<!-- NAVIGATION -->
+
+<div id="nav">
+
+<ul>
+
+<li><a href="https://freewebsitetemplates.com/">Home</a></li>
+
+<li><a href="https://freewebsitetemplates.com/">History</a></li>
+
+<li><a href="https://freewebsitetemplates.com/">Events</a></li>
+
+<li><a href="https://freewebsitetemplates.com/">Gallery</a></li>
+
+<li><a href="https://freewebsitetemplates.com/">Lantern Wish</a></li>
+
+<li><a href="https://freewebsitetemplates.com/">Contact</a></li>
+
+</ul>
+
+</div>
+
+<!-- CONTENT -->
+
+<div id="content">
+
+<!-- LEFT -->
+
+<div id="left">
+
+<!-- WISH GENERATOR -->
+
+<div class="wishBox">
+
+<h2> Lantern Wish Generator </h2>
+
+<p>
+
+Enter your name and receive a special lantern blessing.
+
+</p>
+
+<input type="text" id="name" placeholder="Enter your name" />
+
+<br /><br />
+
+<button onclick="showWish()">
+
+Light My Lantern
+
+</button>
+
+<div id="result"></div>
+
+</div>
+
+<!-- ARTICLE -->
+
+<div class="post">
+
+<h1>History of Japan Lantern Festival</h1>
+
+<span>[Traditional Culture]</span>
+
+<p>
+
+Lantern festivals have been celebrated across Japan for hundreds of years.
+These beautiful festivals symbolize hope, peace, happiness, and new
+beginnings. Families gather together to admire glowing lanterns while
+enjoying traditional performances and delicious local foods.
+
+</p>
+
+<p>
+
+Every lantern represents someone's dream or wish. As night falls, thousands
+of lanterns illuminate temples, rivers, and streets, creating one of the
+most unforgettable views in Japanese culture.
+
+</p>
+
+</div>
+
+<div class="post">
+
+<h1>Festival Highlights</h1>
+
+<span>[Must See]</span>
+
+<p>
+
+Visitors can enjoy traditional Bon Odori dances, spectacular fireworks,
+Japanese street food, cultural performances, and lantern lighting
+ceremonies.
+
+</p>
+
+<p>
+
+Whether you are traveling with friends or family, the Japan Lantern Festival
+offers an unforgettable cultural experience full of warmth and happiness.
+
+</p>
+
+</div>
+
+</div>
+
+<!-- RIGHT -->
+
+<div id="right">
+
+<h2>Festival Activities</h2>
+
+<p>Lantern Lighting Ceremony</p>
+
+<p>Japanese Street Food</p>
+
+<p>Traditional Dance Show</p>
+
+<p>Live Music Performance</p>
+
+<p>Night Fireworks</p>
+
+<hr />
+
+<h2>Quick Information</h2>
+
+<p><strong>Location:</strong><br />
+Kyoto, Japan</p>
+
+<p><strong>Season:</strong><br />
+Autumn Festival</p>
+
+<p><strong>Visitors:</strong><br />
+30,000+ Every Year</p>
+
+<p><strong>Admission:</strong><br />
+Free Entry</p>
+
+<hr />
+
+<h2>Photo Preview</h2>
+
+<img src="images/another pics.jfif" width="220" alt="Festival Preview">
+
+</div>
+
+<div class="clear"></div>
+
+</div>
+
+</div>
+
+<!-- FOOTER -->
+
+<div id="footer">
+
+<ul>
+
+<li><a href="#">Home</a> |</li>
+
+<li><a href="#">History</a> |</li>
+
+<li><a href="#">Events</a> |</li>
+
+<li><a href="#">Gallery</a> |</li>
+
+<li><a href="#">Contact</a></li>
+
+</ul>
+
+<span>
+
+<a href="https://freewebsitetemplates.com/preview/skitemplate/index.html"> This is the link for the template website</a><br />
+
+Student Name : <strong>IHSAN AL HUSAINY</strong><br />
+
+Student ID : <strong>69-25229032</strong>
+
+</span>
+
+</div>
+
+</div>
+
+<!-- JAVASCRIPT -->
+
+<script>
+
+window.onload = function(){
+
+alert("Welcome to the Japan Lantern Festival!");
+
+}
+
+function showWish(){
+
+var name=document.getElementById("name").value;
+
+if(name==""){
+
+alert("Please enter your name!");
+
+return;
+
+}
+
+document.getElementById("result").innerHTML=
+
+"<br><strong> Hello "+name+"!</strong><br><br>May your wishes shine as brightly as the lanterns lighting the Japanese night sky. Happy Lantern Festival!";
+
+}
+
+</script>
+
+</body>
+
+</html>
